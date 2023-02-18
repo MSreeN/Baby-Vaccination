@@ -60,3 +60,9 @@
 
   display: inline-block;
 }
+
+.login-btn:hover{
+  color: white;
+  transition: background-color 300ms;
+  background-color: #78bc78;
+}
