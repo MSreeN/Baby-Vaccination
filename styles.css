@@ -8,7 +8,7 @@
   font-size: 62.5%;
   padding: 1rem 4.3rem;
   /* background-color: #d5f4d5  ; */
-  background-image: linear-gradient(to left,rgba(130, 127, 127, 0.475), rgba(0,0,0,0.438)),url(baby4.jpg);
+  background-image: linear-gradient(to left,rgba(122, 114, 114, 0.475), rgba(0,0,0,0.438)),url(baby4.jpg);
   background-size: cover;
   font-family: 'rubik', sans-serif;
   color: white;
@@ -48,13 +48,15 @@
 #5EB95E
 #77D970
 #4CAF50
-#78AB46*/
-  background-color: #78AB46;
+#78AB46
+*/
+  background-color: #5EB95E;
   text-decoration: none;
   color: #000202;
   font-size: 1rem;
   font-weight: 600;
   border-radius: 10px;
+  letter-spacing: 0.3px;
 
   display: inline-block;
 }
