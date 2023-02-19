@@ -23,6 +23,7 @@
 .hero-primary-heading{
   font-size: 4rem;
   margin-bottom: 1.8rem;
+  position: relative;
 }
 
 .hero-description{
@@ -65,4 +66,23 @@
   color: white;
   transition: background-color 300ms;
   background-color: #78bc78;
+}
+
+.login-btn:active{
+  transform: scale(0.91);
+}
+
+.hero-primary-heading:after{
+  content: "";
+  height: 0.2rem;
+  width: 0;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  transition: 0.3s;
+}
+
+.hero-primary-heading:hover::after{
+  width: 75%;
+
 }
